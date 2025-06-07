@@ -66,11 +66,11 @@ To run this project on your local machine, you will need a local server environm
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/jejecomms-qralimy-prototype.git
+    git clone https://github.com/your-username/QRAlimy-Prototype.git
     ```
 
 2.  **Move the project folder:**
-    -   Place the entire `jejecomms-qralimy-prototype` folder into the `htdocs` directory of your XAMPP/MAMP installation.
+    -   Place the entire `QRAlimy-Prototype` folder into the `htdocs` directory of your XAMPP/MAMP installation.
 
 ---
 
