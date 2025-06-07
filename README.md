@@ -10,7 +10,7 @@ The project demonstrates a foundational understanding of core web technologies i
 
 A static version of the front-end is deployed on Netlify. Please note that the PHP-dependent features (the Parking Information Simulator) will not be functional on this static host. The full functionality is demonstrated in the accompanying video presentation.
 
-**Live URL:** **[https://[YOUR_NETLIFY_DEPLOYMENT_URL]](https://[YOUR_NETLIFY_DEPLOYMENT_URL])**
+**Live URL:** **https://qr-alimy-prototype-peach.vercel.app/**
 
 ---
 
