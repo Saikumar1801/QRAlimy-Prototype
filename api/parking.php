@@ -16,8 +16,17 @@ if ($method === 'POST') {
     // It's good practice to sanitize user input to prevent security issues like XSS.
     // htmlspecialchars() converts special characters to HTML entities.
     // The null coalescing operator (??) provides a default value if the POST variable isn't set.
-    $plate = htmlspecialchars($_POST['vehicle_plate'] ?? 'N/A');
-    $spot = htmlspecialchars($_POST['parking_spot'] ?? 'N/A');
+    $plate = htmlspecialchars(trim($_POST['vehicle_plate'] ?? ''));
+    $spot = htmlspecialchars(trim($_POST['parking_spot'] ?? ''));
+
+    // Simple validation
+    if (empty($plate) || empty($spot)) {
+        echo json_encode([
+            'success' => false,
+            'message' => 'Both fields are required.'
+        ]);
+        exit();
+    }
 
     // Store the sanitized data in the session superglobal.
     // This data will persist as long as the user's session is active.
