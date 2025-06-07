@@ -14,6 +14,8 @@ A static version of the front-end is deployed on Netlify. Please note that the P
 
 ---
 
+https://github.com/user-attachments/assets/10b43331-8920-4764-9337-fb34f4576f5f
+
 ## 📋 Table of Contents
 
 - [Project Overview](#-project-overview)
